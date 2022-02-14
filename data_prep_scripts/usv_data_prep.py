@@ -1,3 +1,10 @@
+'''
+
+Converts file type 'ext' to wav, then segments the audio data into 'tl' time lenght specified
+then writes a script to run in matlab to alter the header file of each file
+
+'''
+
 import os
 import sys
 import argparse
