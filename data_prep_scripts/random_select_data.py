@@ -1,8 +1,15 @@
+'''
+
+randomly select 'X' number of files from all files in a folder 
+then copy them to another dir
+
+'''
+
 import os
 import random
 
 new_dir = "/home/$USER/path/to/output/dir"
-data_dir = "/path/to/all/data/files"
+data_dir = "/path/to/data/files"
 
 file_list = []
 
