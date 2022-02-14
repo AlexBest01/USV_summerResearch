@@ -104,6 +104,8 @@ if args.hdr is not None:
     os.system("mv " + new_dir + "/matlab_resample_script.txt " + new_dir + "/matlab_resample_script.m" )
     os.system("cd " + new_dir )
 
+## TODO
+## Script can be run through matlab till this part of code is complete
 '''
     eng = matlab.engine.start_matlab()
     eng.matlab_resample_script(nargout=0)
