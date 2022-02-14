@@ -50,7 +50,7 @@ lr_scheduler:
 
 model:
   _name: wav2vec2
-  quantize_input: true
+  quantize_input: false
   quantize_targets: true
   final_dim: 96
   encoder_layerdrop: 0.05
