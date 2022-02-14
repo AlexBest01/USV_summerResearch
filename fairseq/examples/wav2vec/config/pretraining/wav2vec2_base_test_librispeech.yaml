@@ -58,4 +58,3 @@ model:
   dropout_features: 0.1
   feature_grad_mult: 0.1
   encoder_embed_dim: 768
-  encoder_attention_heads: 12
