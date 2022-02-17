@@ -1,6 +1,6 @@
 # USV_summerResearch
 
-##Scripts
+## Scripts
 The *data prep scripts* are what was used to preprocess the data into a format acceptable by wav2vec2
  - The *initialisation script* is the shell command used to run the original wav2vec algorithm on the machines at VUW
  - Lastly the *test_embedding_extractor.py* uses functions from the fairseq repo to evaluate the model. 
@@ -8,7 +8,7 @@ The *data prep scripts* are what was used to preprocess the data into a format a
 The data within the fairseq folder contains output logs and config files that are in the directory structure that matches the fairseq repo
 
 
-##Datasets
+## Datasets
 **Librispeech** can be downloaded from an open source website at https://www.openslr.org/12/
 
 **Wall Street Journal** The availability of Lingustic Consortium for VUW students is thanks to Daniel BraithwaiteThe process to obtain persmisions to use the Wall Street Journal catalogue on the Lingustic Consortium webpage is:
